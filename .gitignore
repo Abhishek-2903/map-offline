@@ -1,3 +1,47 @@
-﻿node_modules/
+_pycache_
+*. pyc
+*. pyo
+*. pyd
+.Python
+env/
+
+venv/
+
+.venv/
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask
+
+instance/
+
+.webassets-cache
+
+# Database
+
+*. db
+
+*. sqlite3
+*. mbtiles
+
+# Environment variables
+
 .env
-*.log
+
+.env.local
+# IDE
+.vscode/
+.idea/
+*. swp
+*. SWO
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*. log
+
+# Temporary files
+/tmp
